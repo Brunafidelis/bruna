@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/pages/stuff/index.css" />
+  <link rel="stylesheet" href="/public/css/fonts.css">
+  <link rel="stylesheet" href="/public/css/global.css">
+  <title>Bruna Fidelis</title>
+</head>
+
+<body>
+  <div class="bg-gradiente">
+    <nav>
+      <div class="logo">BFF</div>
+      <div class="páginas">
+        <ul class="nav-itens">
+          <li><a href="/src/pages/home/index.html"><b>Home</b></a></li>
+          <li><a href="/src/pages/stuff/index.html"><b>Fun Stuff</b></a></li>
+          <li><a href="/src/pages/about/index.html"><b>About</b></a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Let's have fun</p>
+    <hr>
+    <div class="first-js">
+      <h2>My First JavaScript</h2>
+
+      <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.
+      </button>
+
+      <h2>HTML Geolocation</h2>
+
+      <button onclick="getLocation()">Try It</button>
+
+      <p id="demo"></p>
+
+      <script>
+        const x = document.getElementById("demo");
+
+        function getLocation() {
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+          } else {
+            x.innerHTML = "Geolocation is not supported by this browser.";
+          }
+        }
+
+        function showPosition(position) {
+          x.innerHTML =
+            "Latitude: " +
+            position.coords.latitude +
+            "<br>Longitude: " +
+            position.coords.longitude;
+        }
+      </script>
+    </div>
+    <hr />
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+.first-js {
+  color: #312ee4;
+  font-size: 20px;
+  font-family: Inconsolata;
+}
+
+.first-js > button {
+  font-size: 20px;
+  padding: 15px 40px;
+  font-family: Inconsolata;
+  border-radius: 10px;
+  background-color: #312ee4;
+  color: aliceblue;
+  padding: 15px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
+}
+
+.first-js > h2 {
+  padding: 15px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
+}
+
+.boxmodel-sample {
+  width: 400px;
+  border: 15px solid rgb(14, 207, 241);
+  padding: 50px;
+  margin: 20px;
+  background-color: #312ee4;
+  color: beige;
+  font-family: Inconsolata;
+  font-size: 25px;
+}
+
+blockquote > p {
+  color: beige;
+  font-family: Inconsolata;
+  font-size: 16px;
+}
+
+.life-list {
+  color: rgb(179, 56, 66);
+  text-shadow: 2px 2px 5px rgb(155, 151, 209);
+  font-family: Ultra;
+  list-style-position: inside;
+  padding: 15px 20px 15px 15px;
+  margin: 15px;
+}
